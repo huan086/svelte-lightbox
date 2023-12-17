@@ -147,7 +147,7 @@
                         </GalleryController>
                     </Body>
 
-                <Footer {imagePreset} {title} {description} {gallery} {...(customization.lightboxFooterProps || {})}/>
+                <Footer {imagePreset} title={activeImageTitle} description={activeImageDescription} {gallery} {...(customization.lightboxFooterProps || {})}/>
             </Modal>
         </ModalCover>
     </BodyChild>
